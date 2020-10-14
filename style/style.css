@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans&display=swap');
+
+*{
+	box-sizing: border-box;
+	padding: 0 auto;
+	margin: 0 auto;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	display: inline;
+}
+
+.container{
+	background: #b5f4b5;
+}
+
+main{
+	padding: 20px;
+	margin: 0 auto;
+	background: #b5f4b5;
+}
+
+nav {
+	top: 0;
+	position: sticky;
+	background-color: white;
+	box-shadow: 1px 1px 1px #61E04F;
+}
+
+nav ul{
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+nav li{
+	padding: 10px 15px;
+	display: inline-block;
+}
+
+.nav{
+	text-decoration: none;
+	color: #4d4d4E;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.nav:hover{
+	text-shadow: 1px 1px 10px #55D743;
+	color: black;
+}
+
+.logo{
+	margin-bottom: -10px;
+	height: 33px;
+	margin-left: 170px;
+	margin-right: 150px;
+	cursor: pointer;
+}
+
+.login button{
+	padding: 5px 10px;
+	border-color: white;
+	border: none;
+	outline: none;
+	font-weight: bold;
+	border-radius: 3px;
+}
+
+.sign button{
+	margin-left: -10px;
+	border: none;
+	background-color: white;
+	color: #3ead43
+}
+
+.log button{
+	color: #3ead43;
+	background-color: white;
+}
+
+.sign button:hover{
+	cursor: pointer;
+	text-shadow: 1px 1px 10px #55D743;
+	border-right: 1px solid #55D743;
+}
+
+.log button:hover{
+	color: black;
+	cursor: pointer;
+	border-color: white;
+	text-shadow: 1px 1px 10px #55D743;
+	border-right: 1px solid #55D743;
+}
+
+#beranda{
+	display: flex;
+}
+
+#beranda img{
+	padding-left:40px;
+	flex-basis: 55%;
+	width: 5%;
+}
+
+#beranda p{
+	font-size: 19px;
+	flex-basis: 45%;
+	padding-top: 200px;
+	justify-content: center;
+	text-align: center;
+}
+
+#tentang-kami{
+	display: flex;
+	margin: 0 auto;
+	height: 400px;
+	text-align: center;
+}
+
+#tentang-kami p:hover{
+	text-shadow: 1px 1px 10px #55D743;
+}
+
+#tentang-kami div{
+	padding-top: 100px;
+	flex-basis: 33.3%;
+}
+
+#tentang-kami img{
+	height: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#tentang-kami img:hover{
+	border: 10px solid #55D743;
+	border-radius: 100px;
+}
+
+#sayur{
+	margin: 20px 0 20px 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#sayur .card{
+	height: 410px;
+	text-align: center;
+	width: 20%;
+	margin:10px 20px;
+	padding: 10px;
+	box-shadow: 1px 1px 10px #bfbfbf;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	background: white;
+}
+
+#sayur .card:hover{
+	box-shadow: 0 0 10px #55D743;
+}
+
+#sayur .total{
+	background: white;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 1px 1px 10px #bfbfbf;
+	height: 100px;
+	width: 20%;
+	justify-content: space-around;
+}
+
+#sayur .total p{
+	font-size:12px;
+}
+
+.total button{
+	margin: 0px 20px;
+	flex-basis: 10%;
+	outline: none;
+	border: white;
+	background-color: white;
+	padding: 3px 3px;
+	border-radius: 5px;
+	color: #55D743;
+	font-weight: bold;
+}
+
+.total button:hover{
+	cursor: pointer;
+	text-shadow: 2px 2px 10px #55D743;
+}
+
+.total div{
+	text-align: center;
+	justify-content: center;
+}
+
+#sayur p:hover{
+		text-shadow: 0 0 10px #55D743;
+}
+
+.card img{
+	width: 70%;
+	flex-basis: 30%;
+}
+
+.card h2{
+	font-size: 15px;
+	padding: 2px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	flex-basis: 10%;
+}
+
+.card p{
+	flex-basis: 50%;
+}
+
+.card button{
+	margin: 0px 20px;
+	flex-basis: 10%;
+	margin-bottom: 20px;
+	outline: none;
+	border: white;
+	background-color: white;
+	padding: 3px 3px;
+	border-radius: 5px;
+	color: #4d4d4E;
+	font-weight: bold;
+}
+
+.card button:hover{
+	cursor: pointer;
+	text-shadow: 2px 2px 10px black;
+}
+
+#lokasi{
+	text-align: center;
+	padding: 100px;
+}
+
+#lokasi img{
+	margin-bottom: 30px;
+	height: 500px;
+	box-shadow: 1px 1px 10px #55D743;
+}
+
+#lokasi p:hover{
+	text-shadow: 1px 1px 10px #55D743;
+}
+
+#kontak .container1{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#kontak .container2{
+	padding: 20px 0;
+	margin-bottom: 40px;
+	background: white;
+	border: 1px solid #55D743;
+	text-align: center;
+}
+
+#kontak p:hover, #kontak h2:hover{
+	text-shadow: 1px 1px 10px #55D743;
+}
+
+input, textarea{
+	width: 40%;
+	padding: 5px;
+	margin-top: 10px;
+	resize: vertical;
+	border: 0.2px solid black;
+	margin-right: 30px;
+	border: .1px solid green;
+}
+
+label{
+	padding-top: 2px;
+	padding-bottom: 22px;
+	margin-top: 10px;
+	display: inline-block;
+	width: 100px;
+	height:20px;
+	margin-left: 320px;
+}
+
+.left{
+	float: left;
+	width: 15%;
+	margin-top: 3.5px;
+}
+
+.right{
+	float: right;
+	width: 85%;
+}
+
+.clearform{
+	clear: both;
+}
+
+.clearform button{
+	margin: 10px 0 0 0px;
+	padding: 1px 5px;
+	margin-bottom: 10px;
+	outline: none;
+	border: white;
+	background-color: white;
+	padding: 3px 3px;
+	border-radius: 5px;
+	color: #55D743;
+	font-weight: bold;
+}
+
+.clearform button:hover{
+	cursor: pointer;
+	text-shadow: 1px 1px 10px #55D743;
+}
+
+aside{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background: #b5f4b5;
+}
+
+
+aside h2{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+aside h2:hover,aside table tr:hover{
+	text-shadow: 1px 1px 10px #55D743;
+}
+
+aside .table{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+aside p{
+	margin-top: 50px;
+	font-weight: bold;
+}
+
+aside p:hover{
+	font-size: 20px;
+	text-shadow: 1px 1px 10px #55D743;
+}
+
+figure img{
+	border-top: 3px solid #55D743;
+	border-bottom: 3px solid #55D743;
+}
+
+footer{
+	background: #3bce3b;
+	height: 50px;
+	display: flex;
+	margin-top: 80px;
+}
+
+footer .download img{
+	width: 40%;
+	margin-left: 10px;
+}
+
+footer .sosmed img{
+	width: 20%;
+	padding-left: 20px;
+}
+
+footer .sosmed{
+	flex-basis: 20%;
+	padding: 10px 20px 5px 5px;
+}
+
+footer .sosmed:hover{
+	cursor: pointer;
+}
+
+footer .text{
+	flex-basis: 60%;
+	text-align: center;
+	padding: 15px 20px 5px 5px;
+}
+
+footer .download{
+	padding: 10px 20px 5px 5px;
+	flex-basis: 20%;
+}
+
+@media screen and (max-width: 1000px){
+	nav{
+		height: 60px;
+		top: 0;
+		overflow: hidden;
+	}
+
+	nav li{
+		padding: 10px 20px 10px 0;
+		display: block;
+		list-style: none;
+		text-align: center;
+	}
+
+	.logo{
+		margin: 5px;
+	}
+
+	#beranda{
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+	}
+
+	#beranda img{
+		padding: 0;
+		flex-basis: 70%;
+		width: 100%;
+		margin: auto;
+	}
+
+	#beranda p{
+		font-size: 85%;
+		padding-top: 0;
+		text-align: center;
+		flex-basis: 30%;
+		border-bottom: 1px solid #55D743;
+		padding-bottom: 10px;
+	}
+
+	#tentang-kami{
+		font-size: 85%;
+		margin: 50px;
+		text-align: center;
+		flex-direction: column;
+		height: 100%;
+	}
+
+	#tentang-kami div{
+		margin-top: 30px;
+		padding-top: 10px;
+		border-bottom: 1px solid #55D743;
+		padding-bottom: 10px;
+	}
+
+	#sayur{
+		box-sizing: border-box;
+		margin: 100px 0;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#sayur .button{
+		margin-top: 20px;
+	}
+
+	#sayur .card{
+		height: 230px;
+		width: 160px;
+	}
+
+	#sayur .ket{
+		display: none;
+	}
+
+	#sayur img{
+		width: 30%;
+	}
+
+	#sayur p,#sayur h2{
+		font-size: 70%;
+		padding: 0;
+	}
+
+ 	#sayur .total p{
+		font-size: 80%;
+	}
+
+	#sayur .total button{
+		font-size: 70%;
+	}
+
+	#sayur .total{
+		padding: 10px;
+		height: 30%;
+		width: 40%;
+		justify-content: space-around;
+	}
+
+	#lokasi{
+		text-align: center;
+		padding: 0;
+		font-size: 70%;
+		margin: 40px 0;
+	}
+
+	#lokasi img{
+		margin-top: 20px;
+		margin-bottom: 0px;
+		width: 70%;
+		height: 70%;
+		box-shadow: 1px 1px 10px #55D743;
+	}
+
+	#lokasi p{
+		margin-top: 20px;
+		border-bottom: 1px solid #55D743;
+		padding-bottom: 10px;
+	}
+
+	#kontak .container1{
+		text-align: center;
+		margin-bottom: 30px;
+		font-size: 80%;
+		margin-top: 100px;
+	}
+
+	#kontak .container2{
+		padding: 20px 0;
+		margin-bottom: 40px;
+		background: white;
+		border: 1px solid #55D743;
+		text-align: center;
+	}
+
+	form p{
+		border-bottom: 1px solid #55D743;
+		padding-bottom: 10px;
+	}
+
+	input, textarea{
+		margin-right: 0;
+		width: 50%;
+		font-size: 80%;
+	}
+
+	label{
+		font-size: 90%;
+		margin-left: 0;
+	}
+
+	.clearform button{
+		font-size: 80%;
+		font-weight: bold;
+	}
+
+	aside{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	aside h2{
+		margin: 40px 0;
+		font-size: 100%;
+		border-bottom: 1px solid #55D743;
+		padding-bottom: 5px;
+	}
+
+	aside img{
+		width: 100%;
+	}
+
+	aside table{
+		font-size: 80%;
+	}
+
+	aside p{
+		color: #e8ffe8;
+		font-size: 80%;
+		font-weight: bold;
+		border-bottom: 1px solid #55D743;
+		padding-bottom: 5px;
+	}
+
+	aside p:hover{
+		color: black;
+		text-shadow: 2px 2px 10px #55D743;
+	}
+
+	footer{
+		height: 80%;
+	}
+
+	footer .download img{
+		width: 35%;
+		text-align: center;
+	}
+
+	footer .sosmed img{
+		padding: 0;
+		width: 15%;
+	}
+
+	footer .sosmed{
+		flex-basis: 30%;
+		padding: 0;
+		padding-top: 6px;
+	}
+
+	footer .text{
+		font-size: 70%;
+		flex-basis: 40%;
+		padding: 0;
+		padding-top: 10px;
+	}
+
+	footer .download{
+		flex-basis: 30%;
+		padding: 0;
+		padding-top: 6px;
+	}
+}

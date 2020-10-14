@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Assets\icon\Vegepedia.png">
+    <title>Vegepedia</title>
+    <link rel="stylesheet" href="style\style.css">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><img class="logo" src="Assets\icon\Logo Vegepedia.jpg" alt=""></li>
+          <li><a class="nav beranda" href="#beranda">Beranda</a></li>
+          <li><a class="nav" href="#lokasi">Lokasi</a></li>
+          <li><a class="nav" href="#tentang-kami">Tentang kami</a></li>
+          <li><a class="nav" href="#kontak">Kontak</a></li>
+          <li><a class="login log" href="#"><button>Login</button></a></li>
+          <li><a class="login sign" href="#"><button>Sign-up</button></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <main>
+        <article id="beranda">
+          <img src="Assets\image\pic1.png" alt="picture1">
+          <p>Terkendala dalam membeli sayur karena kesibukan? <br /> Kami disini untuk memberikan anda solusi yang tepat.</p>
+        </article>
+
+        <article id="tentang-kami">
+          <div>
+            <img src="Assets\icon\shop.svg" alt="">
+            <p>Vegepedia menyediakan platform untuk menjual bahan <br /> makanan seperti sayur-sayuran.</p>
+          </div>
+          <div>
+            <img src="Assets\icon\rocket.svg" alt="">
+            <p>Vegepedia adalah sebuah start-up <br /> (Perusahaan Teknologi) yang bergerak dalam bidang jual beli.</p>
+          </div>
+          <div>
+            <img src="Assets\icon\farmer.svg" alt="">
+            <p>Bahan makanan dari Vegepedia <br /> diambil langsung dari petani-petani sayur.</p>
+          </div>
+        </article>
+
+        <article id="sayur">
+          <div class="card">
+            <img src="Assets\image\carrots.jpg" alt="wortel">
+            <h2>Wortel <br /> Rp10.000</h2>
+            <p class="ket">
+              Nutrisi wortel termasuk serat, vitamin, mineral.<br />
+              dan juga sebagai molekul antioksidan.
+            </p>
+            <h2 class="jumWortel">0</h2>
+            <div class="button">
+              <button class="buttplus wortel" type="button">+</button>
+              <button class="buttmin wortel" type="button">-</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Assets\image\cabbage.jpg" alt="wortel">
+            <h2>Kol <br /> Rp8.000</h2>
+            <p class="ket">
+              Kol kaya akan berbagai antioksidan, <br />
+              Ini membantu melawan peradangan.
+            </p>
+            <h2 class="jumKol">0</h2>
+            <div class="button">
+              <button class="buttplus kol" type="button">+</button>
+              <button class="buttmin kol"type="button">-</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Assets\image\potato.jpg" alt="wortel">
+            <h2>Kentang <br /> Rp12.000</h2>
+            <p class="ket">
+              Memperkuat tulang magnesium <br />
+               dalam kentang berkontribusi besar pada kesehatan tulang.
+            </p>
+            <h2 class="jumKentang">0</h2>
+            <div class="button">
+              <button class="buttplus kentang" type="button">+</button>
+              <button class="buttmin kentang" type="button">-</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Assets\image\seledri.jpg" alt="seledri">
+            <h2>Seledri <br /> Rp5.000</h2>
+            <p class="ket">
+              Daun seledri memiliki sifat antiinflamasi, <br />
+               membantu meringankan gejala radang.
+            </p>
+            <h2 class="jumSeledri">0</h2>
+            <div class="button">
+              <button class="buttplus seledri" type="button">+</button>
+              <button class="buttmin seledri" type="button">-</button>
+            </div>
+          </div>
+          <div class="total">
+            <div>
+              <p><b>Sub Total :</b></p>
+              <p id="subtotal">0</p>
+            </div>
+            <button type="button" class="buyNow">Buy Now</button>
+          </div>
+        </article>
+
+        <article id="lokasi">
+          <img src="Assets\image\lokasi.png" alt="lokasi">
+          <p>Perusahaan kami sendiri berpusat di Airmadidi, Sulawesi Utara <br />
+            Yang akan terus diperluas untuk menjangkau seluruh indonsia.</p>
+        </article>
+
+        <article id="kontak">
+          <form class="form">
+            <div class="container1">
+              <h2>Anda punya pertanyaan seputar aplikasi kami?</h2>
+              <p>silahkan tanyakan pada form berikut</p>
+            </div>
+            <div class="container2">
+              <div class="left">
+                <label for="fullname">Nama</label>
+              </div>
+              <div class="right">
+                <input type="text" placeholder="Nama" id="fullname" />
+              </div>
+              <div class="left">
+                <label for="email">Email</label>
+              </div>
+              <div class="right">
+                  <input type="text" placeholder="Email" id="email" />
+              </div>
+              <div class="left">
+                <label for="write">Subject</label>
+              </div>
+              <div class="right">
+                <textarea id="write" name="write" placeholder="Tulis disini..." ></textarea>
+              </div>
+              <div class="clearform">
+                <button id="submit" type="button" name="button">Submit</button>
+              </div>
+            </div>
+          </form>
+        </article>
+      </main>
+
+      <aside>
+        <div class="class="profil"">
+          <figure>
+            <img src="Assets\image\profil.png" alt="foto profil">
+            <figcaption>Foto Profil</figcaption>
+          </figure>
+        </div>
+
+        <div class="about">
+          <section>
+            <h2>My Profile</h2>
+            <table class="table">
+              <tr>
+                <th>Nama</th>
+                <td>Clifford D. R. Mantow</td>
+              </tr>
+              <tr>
+                <th>Tempat/Tanggal Lahir</th>
+                <td>Kotamobagu, 21 Agustus 2000</td>
+              </tr>
+              <tr>
+                <th>Asal</th>
+                <td>Modoinding, Sulawesi Utara</td>
+              </tr>
+              <tr>
+                <th>Konsentrasi</th>
+                <td>Web Developer, Game Developer</td>
+              </tr>
+            </table>
+            <p>Never Give Up On Your Dreams, <br /> Be Yoursef And Do Your Best</p>
+          </section>
+        </div>
+      </aside>
+
+      <footer>
+        <div class="sosmed">
+          <a href="https://www.facebook.com/clifford.r.mantow" target='_blank'><img src="Assets\icon\facebook.png" alt=""></a>
+          <a href="https://www.instagram.com/cliffordmantow/?hl=id" target='_blank'><img src="Assets\icon\instagram.png" alt=""></a>
+          <a href="https://api.whatsapp.com/send?phone=6281717303049&text=Saya%20tertarik%20untuk%20membeli%20" target='_blank'><img src="Assets\icon\whatsapp.png" alt=""></a>
+        </div>
+
+        <div class="text">
+          <p>Vegepedia &#169; 2019</p>
+        </div>
+        <div class="download">
+          <a href="https://play.google.com/store/apps/details?id=com.vegepedia" target='_blank'><img src="Assets\icon\ps.png" alt=""></a>
+          <a href="https://apps.apple.com/us/app/vegepedia" target='_blank'><img src="Assets\icon\as.png" alt=""></a>
+        </div>
+      </footer>
+      </div>
+
+    <script src="script\javascript.js"></script>
+  </body>
+</html>
